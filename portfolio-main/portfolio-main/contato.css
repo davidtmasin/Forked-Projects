@@ -1,0 +1,139 @@
+.contato {
+
+    padding: 80px 0;
+    background-size: cover;
+    color: white;
+    background-image: url(https://images3.alphacoders.com/813/813087.jpg);
+
+}
+
+.titulo_contato {
+
+    margin-bottom: 100px;
+    font-weight: bold;
+
+}
+
+.formulario {
+
+    font-family: "Space Mono", monospace;
+    margin: auto;
+    padding: 0rem;
+    width: 1000px;
+    height: 800px;
+    background-color: rgba(184, 14, 251, 0.9);
+    border: 2px solid #000;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px black
+
+}
+
+.sm {
+
+    padding: 20px;
+    height: 100px;
+    width: 33%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.icons {
+
+    margin: auto;
+    margin-left: 80px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.icons:hover {
+
+    height: 110px;
+    width: 110px;
+
+}
+
+.icons1 {
+
+    margin: auto;
+    margin-left: 80px;
+    height: 110px;
+    width: 110px;
+
+}
+
+.icons1:hover {
+
+    height: 120px;
+    width: 120px;
+    cursor: pointer;
+
+}
+
+.campo {
+
+    margin: auto;
+    display: block;
+    font-size: 25px;
+    height: 50px;
+    width: 500px;
+    border-radius: 25px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 0 #000;
+    outline: none;
+    padding: 10px;
+    cursor: text;
+
+}
+
+.campo:first-child {
+
+    margin-top: 0;
+
+}
+
+label {
+
+    padding: 20px;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    margin: 40px 0 5px 0;
+    font-weight: bold;
+
+}
+
+label:first-child {
+
+    margin-top: 25px;
+
+}
+
+
+.check {
+
+    margin: auto;
+    margin-top: 70px;
+    display: block;
+    font-size: 40px;
+    height: 80px;
+    width: 250px;
+    border-radius: 5px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 0 #000;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 25px;
+    
+}
+
+.check:hover {
+
+    transition: 0.3s;
+    box-shadow: none;
+    font-style: italic;
+    background-color: rgb(100, 100, 100);
+    
+}

@@ -1,0 +1,24 @@
+body {
+
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+    
+    width: 18px;            
+  }
+  
+  body::-webkit-scrollbar-track {
+
+    background: rgb(0, 0, 0);    
+
+  }
+  
+  body::-webkit-scrollbar-thumb {
+
+    background-color: rgb(27, 80, 11);
+    border-radius: 100px;
+
+  }

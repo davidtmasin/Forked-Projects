@@ -1,0 +1,45 @@
+.titulo_projeto {
+
+    padding: 60px 0;
+    font-weight: bold;
+
+}
+
+.projeto_1 {
+
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 60px;
+    width: 500px;
+    border: 2px solid #000;
+    height: 450px;
+    box-shadow: 10px 10px 0 #000;
+
+}
+
+.projeto_1:hover {
+
+    transition: 0.3s;
+    box-shadow: 0 0 0 #000;
+
+}
+
+.projeto_2 {
+
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 60px 60px 60px 215px;
+    border: 2px solid #000;
+    width: 500px;
+    height: 450px;
+    box-shadow: 10px 10px 0 #000;
+
+
+}
+
+.projeto_2:hover {
+
+    transition: 0.3s;
+    box-shadow: 0 0 0 #000;
+
+}

@@ -1,0 +1,55 @@
+.ferramentas {
+
+    padding: 30px 0 0 0;
+    background-size: cover;
+    color: black;
+
+}
+
+.titulo_ferramentas {
+
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+
+.subtitulo_ferramentas {
+
+    margin-top: 150px;
+    font-size: 70px;
+
+}
+
+.imagens {
+
+    width: fit-content;
+    
+    margin: auto;
+
+}
+
+.imagens_ferramentas_front_end {
+
+    padding-top: 70px;
+    
+
+}
+
+.photoshop {
+
+    width: 400px;
+
+}
+
+.premiere {
+
+    width: 400px;
+    margin-left: 350px;
+}
+
+.imagens_ferramentas_designer {
+
+    padding-top: 70px;
+    width: fit-content;
+    
+}

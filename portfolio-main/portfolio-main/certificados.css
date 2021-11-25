@@ -1,0 +1,40 @@
+.certificados {
+
+    margin-right: 0px;
+    background-color: black;
+    color: white;
+    background-size: cover;
+    background-image: url(https://www.tcdsb.org/schools/neilmcneil/STEAM/PublishingImages/programming.gif);
+
+}
+
+.titulo_certificados {
+
+    padding: 80px 0;
+    margin-top: 100px;
+    font-weight: bold;
+
+}
+
+.imagens_certificados {
+
+    width: fit-content;
+
+}
+
+.certificado1 {
+
+    display: inline;
+    padding: 20px 20px;
+    margin-left: 120px;
+    border-radius: 100px;
+
+}
+
+.texto_certificado {
+
+    text-align: center;
+    font-size: 10px;
+    display: block;
+
+}

@@ -1,0 +1,54 @@
+header {
+
+    position: fixed;
+    left: 0;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    color: white;
+
+}
+
+.caixa {
+
+    position: relative;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.lista {
+
+    font-weight: bold;
+    position: absolute;
+    top: 43%;
+    right: 0;
+    margin-right: 30px;
+
+}
+
+.lista li {
+
+    display: inline;
+    margin: 0 0 0 30px;
+    font-size: 35px;
+    cursor: pointer;
+    
+}
+
+.lista li:hover {
+
+    transition: 0.5s;
+    color:rgb(37, 214, 46);
+
+}
+
+.fotoperfil {
+
+    position: relative;
+    width: 150px;
+    border-radius: 100px;
+    margin: 20px 20px;
+    box-shadow: 0 0 40px rgb(37, 214, 46);
+
+}

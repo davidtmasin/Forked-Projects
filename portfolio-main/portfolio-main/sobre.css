@@ -1,0 +1,78 @@
+h1 {
+
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.sobre {
+
+    padding: 90px 0 0 0;
+    background-size: cover;
+    background-color: white;
+    margin: auto;
+
+}
+
+.texto_tudo {
+
+    width: 100%;
+
+}
+
+
+.caixa_descrição {
+
+    width: 820px;
+    margin-left: 5%;
+    position: absolute;
+
+}
+
+.descrição_texto {
+
+    width: 1000px;
+    position: absolute;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 38px;
+
+}
+
+.caixa_detalhes {
+
+    width: 600px;
+    margin-left: 65%;
+    margin-bottom: 100px;
+
+}
+
+.detalhes_texto {
+
+    padding: 20px 0;
+    font-size: 330px;
+    margin-left: 80px;
+
+}
+
+
+h2 {
+
+    text-align: center;
+    font-size: 80px;
+
+}
+
+.item4 {
+
+    padding-top: 10px;
+    font-size: 33px;
+
+}
+
+b {
+
+    font-weight: bold;
+
+}

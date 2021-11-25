@@ -1,0 +1,29 @@
+.experiencias {
+
+    padding: 80px 0;
+    background-size: cover;
+    color: white;
+    background-image: url(https://justresults.co.nz/wp-content/uploads/2015/10/web-developer-banner.png);
+
+}
+
+.titulo_experiencias {
+
+    margin-bottom: 100px;
+    font-weight: bold;
+
+}
+
+.experiencias_texto {
+
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+
+}
+
+.experiencias_caixa {
+
+    margin-left: 40px;
+
+}

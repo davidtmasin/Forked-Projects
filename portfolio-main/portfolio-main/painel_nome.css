@@ -1,0 +1,119 @@
+.painel_nome {
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Anonymous Pro', monospace;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.foto_perfil {
+
+    position: absolute;
+    width: 150px;
+    border-radius: 100px;
+    margin-left: 1px;
+    box-shadow: 0 0 40px rgb(37, 214, 46);
+
+}
+
+.line {
+    position: relative;
+    font-weight: bold;
+    top: 45%;
+    padding: 20px 0;
+    width: 20em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 350%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    background-color: rgb(162, 0, 255);
+    border-radius: 10px;
+    box-shadow: 8px 8px 0 white;
+}
+
+.line_2 {
+    
+    position: relative;
+    top: 48%;
+    padding: 20px 0;
+    width: 10em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255);
+    font-size: 350%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    background-color: rgb(58, 172, 73);
+    border-radius: 10px;
+    box-shadow: 8px 8px 0 white;
+}
+
+/*Animation*/
+
+.anim-typewriter {
+    animation: typewriter 4s steps(50) 1s 1 normal both,
+    blinkTextCursor 500ms steps(50) infinite normal;
+}
+
+.anim-typewriter_2 {
+    animation: typewriter 4s steps(50) 5s 1 normal both,
+    blinkTextCursor 900ms steps(50) infinite normal;
+}
+
+@keyframes typewriter {
+
+        from {
+              width: 0;
+        }
+        to {
+              width: 20em;
+        }
+
+}
+
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgb(0, 0, 0);
+    }
+    to {
+          border-right-color: rgb(0, 0, 0);
+    }
+}
+
+
+.imagem_principal {
+
+    width: 100%;
+
+}
+
+.painel_nome {
+
+    text-align: center;
+    background: url('https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    height: 93vh;
+
+}
+
+.texto_1 {
+
+    padding-top: 12%;
+    text-align: center;
+    font-size: 100px;
+
+}
+
+.texto {
+
+    padding-top: 12%;
+
+}

@@ -1,0 +1,60 @@
+
+/* Itens na ordem das tags a partir da <li> filha da <ul> que puxa o componente para App */
+
+.country{  
+    margin: 33px 30px 27px 30px;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: lightgrey 1px 2px 15px;
+    overflow: hidden;
+    width: 275px;
+    display: flex;
+    justify-content: flex-start;
+    /* adicionar transition ver como vai fazer depois */
+
+}
+
+a{
+    cursor: pointer;
+}
+
+.ctyimgcont{
+    height: 150px;
+
+}
+
+.ctyimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.ctyinfocont {
+    padding: 20px;
+    color: rgb(43,57,69);
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.ctyname {
+    font-size: 1.4rem;    
+}
+
+.ctyinfo {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    flex-direction: column;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+.ctyinfoit {
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+
+
+

@@ -1,0 +1,108 @@
+.App{
+  min-height: 100vh;
+  background-color: white;
+  color: rgb(17,21,23);
+
+}
+
+.header{
+    height: 9.4vh;
+    background-color: white;
+    box-shadow: lightgrey 0px 4px 15px;
+    padding: 20px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.wwtitle{
+  font-size: 1.2rem;
+  
+}
+
+.content{
+  padding: 0px 2.25%;
+  width: 100%;
+}
+
+
+.forms{
+
+  padding-top: 40px;
+  width: 100%;
+  display: flex;
+}
+
+
+.search-form{
+  width: 100%;
+  margin: 30px 817px 0px 30px;
+  position: relative;
+
+
+}
+
+.search-bar{
+  width: 100%;
+  height: 55px;
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: lightgrey 3px 3px 12px;
+  padding: 20px 20px 20px 60px; 
+  font-size: 1rem;
+  
+}
+
+
+
+.get-region{
+  height: 55px;
+  width: 30%;
+  padding: 0px 20px;
+  margin: 30px 10px 30px 0px;
+  border: 0px;
+  background: white;
+  
+ 
+  position: relative;
+  color: rgb(43, 57, 69);
+  
+  
+}
+
+
+
+.filter-region{
+  position: relative;
+  border: none;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  border-radius: 5px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  box-shadow: lightgrey 3px 3px 12px;
+  font-size: 1rem;
+  padding: 10px;
+  height: 100%;
+  color: rgb(43, 57, 69);
+  border: none;
+}
+
+
+
+.countries{
+  display: flex;
+  -webkit-box-pack: center;  
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  padding: 0px;  
+  margin: 0px;
+} 
